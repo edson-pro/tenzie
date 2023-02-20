@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  @apply box-border;
+}
+body {
+  @apply bg-[#0b2434] m-0 p-5;
+  font-family: "Karla", sans-serif;
+}
+main {
+  @apply bg-neutral-100 h-[400px] max-w-[800px] flex flex-col justify-around items-center p-5 rounded-[5px];
+}
